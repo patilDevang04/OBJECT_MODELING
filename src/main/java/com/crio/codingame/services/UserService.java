@@ -25,17 +25,13 @@ public class UserService implements IUserService {
         this.userRepository = userRepository;
         this.contestRepository = contestRepository;
     }
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Create and store User into the repository.
+
     @Override
     public User create(String name) {
      return userRepository.save(new User(null, name, 1500));
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Get All Users in Ascending Order w.r.t scores if ScoreOrder ASC.
-    // Or
-    // Get All Users in Descending Order w.r.t scores if ScoreOrder DESC.
+
 
     @Override
     public List<User> getAllUserScoreOrderWise(ScoreOrder scoreOrder){
@@ -70,9 +66,7 @@ public class UserService implements IUserService {
         return new UserRegistrationDto(contest.getName(), user.getName(),RegisterationStatus.REGISTERED);
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Withdraw the user from the contest
-    // Hint :- Refer Unit Testcases withdrawContest method
+
 
     @Override
     public UserRegistrationDto withdrawContest(String contestId, String userName) throws ContestNotFoundException, UserNotFoundException, InvalidOperationException {

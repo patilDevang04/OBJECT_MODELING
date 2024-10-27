@@ -20,7 +20,7 @@ public class CommandInvoker {
     public void executeCommand(String commandName, List<String> tokens) throws NoSuchCommandException {
         ICommand command = get(commandName);
         if(command == null){
-            // Handle Exception
+
             throw new NoSuchCommandException();
         }
         command.execute(tokens);

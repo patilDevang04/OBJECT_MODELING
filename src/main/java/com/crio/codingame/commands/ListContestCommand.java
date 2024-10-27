@@ -14,12 +14,7 @@ public class ListContestCommand implements ICommand{
         this.contestService = contestService;
     }
 
-    // TODO: CRIO_TASK_MODULE_CONTROLLER
-    // Execute getAllContestLevelWise method of IContestService and print the result.
-    // Look for the unit tests to see the expected output.
-    // Sample Input Token List:- ["LIST_CONTEST","HIGH"]
-    // or
-    // ["LIST_CONTEST"]
+
 
     @Override
     public void execute(List<String> tokens) {

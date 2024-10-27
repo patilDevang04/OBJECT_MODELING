@@ -37,9 +37,6 @@ public class ContestRepository implements IContestRepository {
         return entity;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Find all the list of Contest Present in the Repository
-    // Tip:- Use Java Streams
 
     @Override
     public List<Contest> findAll() {
@@ -75,9 +72,7 @@ public class ContestRepository implements IContestRepository {
         return 0;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Find all the list of Contest Present in the Repository provided Level
-    // Tip:- Use Java Streams
+
 
     @Override
     public List<Contest> findAllContestLevelWise(Level level) {

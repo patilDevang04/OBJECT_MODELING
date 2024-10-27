@@ -10,9 +10,7 @@ import org.junit.jupiter.api.Test;
 @DisplayName("UserTest")
 public class UserTest {
 
-   // TODO: WARNING!!!
-   //  DO NOT MODIFY ANY FILES IN THE TESTS/ ASSESSMENTS UNLESS ASKED TO.
-   //  Any modifications in this file may result in Assessment failure!
+
 
    @Test
    @DisplayName("checkIfContestExists should Return true If Contest is Found")

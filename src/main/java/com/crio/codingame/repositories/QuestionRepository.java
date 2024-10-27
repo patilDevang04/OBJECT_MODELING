@@ -36,9 +36,7 @@ public class QuestionRepository implements IQuestionRepository {
         return entity;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Find all the list of Question Present in the Repository
-    // Tip:- Use Java Streams
+
 
     @Override
     public List<Question> findAll() {
@@ -74,9 +72,7 @@ public class QuestionRepository implements IQuestionRepository {
         return 0;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Find all the list of Question Present in the Repository provided Level
-    // Tip:- Use Java Streams
+
 
     @Override
     public List<Question> findAllQuestionLevelWise(Level level) {

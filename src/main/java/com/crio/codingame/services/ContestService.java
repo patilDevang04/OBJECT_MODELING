@@ -53,8 +53,7 @@ public class ContestService implements IContestService {
         return contest;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Return a specific List of Random Questions as specified by numQuestion.
+
 
     private List<Question> pickQuestionsList(final List<Question> questions,final Integer numQuestion){
         List<Question> ListOfQuestion=new ArrayList<>();
@@ -66,10 +65,7 @@ public class ContestService implements IContestService {
      return ListOfQuestion;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Get All Contest if level is not specified.
-    // Or
-    // Get List of Contest which matches the level provided.
+
 
     @Override
     public List<Contest> getAllContestLevelWise(Level level) {

@@ -34,9 +34,7 @@ public class UserRepository implements IUserRepository{
         return entity;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Find all the list of User Present in the Repository
-    // Tip:- Use Java Streams
+
 
     @Override
     public List<User> findAll() {
@@ -72,9 +70,7 @@ public class UserRepository implements IUserRepository{
         return 0;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Find the User Present in the Repository provided name
-    // Tip:- Use Java Streams
+
 
     @Override
     public Optional<User> findByName(String name) {

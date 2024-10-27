@@ -13,10 +13,6 @@ public class CreateUserCommand implements ICommand{
         this.userService = userService;
     }
 
-    // TODO: CRIO_TASK_MODULE_CONTROLLER
-    // Execute create method of IUserService and print the result.
-    // Look for the unit tests to see the expected output.
-    // Sample Input Token List:- ["CREATE_QUESTION","Ross"]
 
     @Override
     public void execute(List<String> tokens) {

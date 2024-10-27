@@ -20,10 +20,6 @@ public class QuestionService implements IQuestionService{
         return questionRepository.save(question);
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Get All Questions if level is not specified.
-    // Or
-    // Get List of Question which matches the level provided.
 
     @Override
     public List<Question> getAllQuestionLevelWise(Level level) {

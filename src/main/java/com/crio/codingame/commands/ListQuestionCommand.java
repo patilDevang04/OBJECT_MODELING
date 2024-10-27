@@ -14,12 +14,7 @@ public class ListQuestionCommand implements ICommand{
         this.questionService = questionService;
     }
 
-    // TODO: CRIO_TASK_MODULE_CONTROLLER
-    // Execute getAllQuestionLevelWise method of IQuestionService and print the result.
-    // Look for the unit tests to see the expected output.
-    // Sample Input Token List:- ["LIST_QUESTION","HIGH"]
-    // or
-    // ["LIST_QUESTION"]
+
 
     @Override
     public void execute(List<String> tokens) {

@@ -14,10 +14,6 @@ public class CreateQuestionCommand implements ICommand{
         this.questionService = questionService;
     }
 
-    // TODO: CRIO_TASK_MODULE_CONTROLLER
-    // Execute create method of IQuestionService and print the result.
-    // Look for the unit tests to see the expected output.
-    // Sample Input Token List:- ["CREATE_QUESTION","Question22","HIGH","220"]
 
     @Override
     public void execute(List<String> tokens) {

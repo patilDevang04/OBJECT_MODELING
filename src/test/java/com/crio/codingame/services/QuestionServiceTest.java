@@ -25,9 +25,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 public class QuestionServiceTest {
 
 
-    // TODO: WARNING!!!
-    //  DO NOT MODIFY ANY FILES IN THE TESTS/ ASSESSMENTS UNLESS ASKED TO.
-    //  Any modifications in this file may result in Assessment failure!
+
     
     @Mock
     private IQuestionRepository qRepositoryMock;
